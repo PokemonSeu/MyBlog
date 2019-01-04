@@ -1,4 +1,4 @@
-#coding:utf-8
+
 from fabric.api import env,run
 from fabric.operations import sudo
 
@@ -7,10 +7,10 @@ GIT_REPO = "https://github.com/PokemonSeu/MyBlog.git"
 env.user = 'pythonman'
 env.password = ' '
 
-# 填写你自己的主机对应的域名
+
 env.hosts = ['www.pythonman.cn']
 
-# 一般情况下为 22 端口，如果非 22 端口请查看你的主机服务提供商提供的信息
+
 env.port = '22'
 
 
